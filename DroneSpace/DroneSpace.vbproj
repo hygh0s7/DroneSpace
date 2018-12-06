@@ -14,6 +14,7 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -26,7 +27,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -116,6 +116,12 @@
     <Compile Include="Form4.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -131,6 +137,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Resource1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -145,11 +156,19 @@
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -175,6 +194,234 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djilogoblack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djilogoblue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djilogodarkblue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djilogogrey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djilogosilver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\djilogowhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dji-inspire-1-pro-black-edition-inc-lens-_2_-2313-p_2000x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJI-Inspire-1-Profront.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dji-inspire-1-pro-landing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dji-inspire-2-top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inspire_1_Pro_Black_Edition__side_in_air_2_.0.0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inspire_1_PRO_Black_Edition_sideground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inspire1proBlack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inspire-1-Pro-Black-Edition-front-on-ground_2048x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inspire-1-Pro-Black-Edition-side-in-air-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inspire2X_frontinair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inspire2x4s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inspire2x5frontground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inspire2X7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJI_MAVIC_AIR_WS_TOP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dji-mavic-air-arctic-white-drone-back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavicairblack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavicAir-black_1200x1200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavicairred.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavicairwhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavicairwhitefolded.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mavic_2_Pro_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mavic2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavicpro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavicproAW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavicprodown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavic-pro-folded.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavicproinside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mavic-Pro-Platinum-6-copy-e1504203431658.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pavicprofront.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\platinum_bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavic_plat_folded.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavic2bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mavic2front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavic2front2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavic2RC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavic2side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavic2zoom_folded.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavic2zoomfront.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavic2zoomside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p4pro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p4profront.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p4proObsidian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p4proObsidian2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p4proObsidianback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p4proObsidianside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p4proside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p4prov2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p4prov2rc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remote_P4-Pro-Plus_Front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s2-avatar-bad1e60756272c6527004db80ca75197.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJI_SPARK_BL_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJI_SPARK_BL_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJI_SPARK_BL_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJI_SPARK_BL_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJI_SPARK_GN_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DJI_SPARK_GN_side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sparkallolors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sparkback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sparkfrontR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sparkline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SparkRC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sparkrc2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sparkredfront.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sparkside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sparktopB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SparktopG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SparktopW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sparkWfront.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sparkWhand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpsrksideY.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
