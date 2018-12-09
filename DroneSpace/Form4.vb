@@ -1,26 +1,22 @@
-﻿Imports System.Data.OleDb
+Imports System.Data.OleDb
 
 Public Class Form4
-    Dim connection As New OleDb.OleDbConnection
 
-    Dim dbProvider As String
-    Dim dbSource As String
-    Dim ds As New DataSet
-    Dim da As OleDb.OleDbDataAdapter
-    Dim sql As String
-    Dim cmd As New OleDbCommand(sql, connection)
-    Dim connStr As String
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If Txtpassword.Text = ReNewPass.Text Then
-            Try
-                connection.Open()
-                cmd = New OleDbCommand("update robocopy set [password] = '" & NewPass.Text & "' where username = '" & Txtpassword.Text & "'", connection)
-                cmd.ExecuteNonQuery()
-                MessageBox.Show("PASSWORD CHANGE SUCCESSFULLY")
-                connection.Close()
-            Catch ex As Exception
-                MsgBox(ex.Message)
-            End Try
-        End If
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Dim connection As New SqlClient.SqlConnection
+        Dim command As New SqlClient.SqlCommand
+        Dim adaptor As New SqlClient.SqlDataAdapter
+        Dim dataset As New DataSet
+        connection.Open()
+        connection.ConnectionString = ("Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\accounts.mdf;Integrated Security=True;User Instance=True")
+        command.CommandText = "UPDATE Accounts SET Password='" & Txtpass.Text & "';"
+        'connection.Open()
+        command.Connection = connection
+        adaptor.SelectCommand = command
+        adaptor.Fill(dataset, "0")
+
+        MsgBox("Password Changed Successfully", MsgBoxStyle.Information, "Done!")
+        Form1.Show()
+
     End Sub
 End Class
