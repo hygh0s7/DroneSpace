@@ -42,7 +42,7 @@ Partial Class Form4
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(231, 191)
+        Me.Label3.Location = New System.Drawing.Point(231, 197)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(186, 20)
@@ -51,7 +51,7 @@ Partial Class Form4
         '
         'Txtpassword
         '
-        Me.Txtpassword.Location = New System.Drawing.Point(353, 140)
+        Me.Txtpassword.Location = New System.Drawing.Point(431, 142)
         Me.Txtpassword.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Txtpassword.Name = "Txtpassword"
         Me.Txtpassword.Size = New System.Drawing.Size(148, 26)
@@ -60,7 +60,7 @@ Partial Class Form4
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(221, 145)
+        Me.Label2.Location = New System.Drawing.Point(231, 145)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(113, 20)
@@ -69,7 +69,7 @@ Partial Class Form4
         '
         'txtusername
         '
-        Me.txtusername.Location = New System.Drawing.Point(319, 91)
+        Me.txtusername.Location = New System.Drawing.Point(431, 93)
         Me.txtusername.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.txtusername.Name = "txtusername"
         Me.txtusername.Size = New System.Drawing.Size(148, 26)
@@ -78,7 +78,7 @@ Partial Class Form4
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(223, 96)
+        Me.Label1.Location = New System.Drawing.Point(231, 99)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(87, 20)

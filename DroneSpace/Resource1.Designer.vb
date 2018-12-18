@@ -67,6 +67,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend Shared ReadOnly Property design5() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("design5", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend Shared ReadOnly Property dji_inspire_1_pro_black_edition_inc_lens__2__2313_p_2000x() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("dji_inspire_1_pro_black_edition_inc_lens__2__2313_p_2000x", resourceCulture)
