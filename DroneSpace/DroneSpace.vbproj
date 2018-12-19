@@ -423,5 +423,8 @@
   <ItemGroup>
     <None Include="Resources\SpsrksideY.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\design5.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

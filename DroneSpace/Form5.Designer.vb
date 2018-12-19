@@ -51,7 +51,7 @@ Partial Class Form5
         '
         'PictureBox3
         '
-        Me.PictureBox3.Location = New System.Drawing.Point(680, 698)
+        Me.PictureBox3.Location = New System.Drawing.Point(696, 483)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(509, 410)
         Me.PictureBox3.TabIndex = 4
@@ -59,15 +59,15 @@ Partial Class Form5
         '
         'PictureBox4
         '
-        Me.PictureBox4.Location = New System.Drawing.Point(81, 698)
+        Me.PictureBox4.Location = New System.Drawing.Point(97, 483)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(509, 410)
+        Me.PictureBox4.Size = New System.Drawing.Size(520, 410)
         Me.PictureBox4.TabIndex = 3
         Me.PictureBox4.TabStop = False
         '
         'PictureBox2
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(680, 245)
+        Me.PictureBox2.Location = New System.Drawing.Point(696, 30)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(509, 410)
         Me.PictureBox2.TabIndex = 2
@@ -76,9 +76,9 @@ Partial Class Form5
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.DroneSpace.My.Resources.Resource1.DJI_MAVIC_AIR_WS_TOP
-        Me.PictureBox1.Location = New System.Drawing.Point(81, 245)
+        Me.PictureBox1.Location = New System.Drawing.Point(97, 30)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(520, 410)
+        Me.PictureBox1.Size = New System.Drawing.Size(536, 410)
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
