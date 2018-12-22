@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="djilogoblack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\djilogoblack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djilogoblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\djilogoblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djilogodarkblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\djilogodarkblue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djilogogrey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\djilogogrey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djilogosilver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\djilogosilver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="djilogowhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\djilogowhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DJI_Inspire_1_Profront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DJI-Inspire-1-Profront.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dji_inspire_1_pro_black_edition_inc_lens__2__2313_p_2000x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dji-inspire-1-pro-black-edition-inc-lens-_2_-2313-p_2000x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dji_inspire_1_pro_landing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dji-inspire-1-pro-landing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dji_inspire_2_top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dji-inspire-2-top.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dji_mavic_air_arctic_white_drone_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dji-mavic-air-arctic-white-drone-back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DJI_MAVIC_AIR_WS_TOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DJI_MAVIC_AIR_WS_TOP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DJI_SPARK_BL_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DJI_SPARK_BL_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DJI_SPARK_BL_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DJI_SPARK_BL_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DJI_SPARK_BL_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DJI_SPARK_BL_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DJI_SPARK_BL_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DJI_SPARK_BL_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DJI_SPARK_GN_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DJI_SPARK_GN_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DJI_SPARK_GN_side" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DJI_SPARK_GN_side.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inspire1proBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\inspire1proBlack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inspire2x4s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\inspire2x4s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inspire2x5frontground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\inspire2x5frontground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inspire2X7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\inspire2X7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inspire2X_frontinair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\inspire2X_frontinair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inspire_1_Pro_Black_Edition_front_on_ground_2048x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Inspire-1-Pro-Black-Edition-front-on-ground_2048x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inspire_1_PRO_Black_Edition_sideground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Inspire_1_PRO_Black_Edition_sideground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inspire_1_Pro_Black_Edition_side_in_air_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Inspire-1-Pro-Black-Edition-side-in-air-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inspire_1_Pro_Black_Edition__side_in_air_2__0_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Inspire_1_Pro_Black_Edition__side_in_air_2_.0.0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mavic2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mavic2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavic2bottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavic2bottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mavic2front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mavic2front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavic2front2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavic2front2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavic2RC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavic2RC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavic2side" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavic2side.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavic2zoomfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavic2zoomfront.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavic2zoomside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavic2zoomside.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavic2zoom_folded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavic2zoom_folded.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavicairblack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavicairblack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavicairred" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavicairred.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavicairwhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavicairwhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavicairwhitefolded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavicairwhitefolded.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavicAir_black_1200x1200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavicAir-black_1200x1200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavicpro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavicpro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavicproAW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavicproAW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavicprodown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavicprodown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavicproinside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavicproinside.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mavic_2_Pro_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mavic_2_Pro_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavic_plat_folded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavic_plat_folded.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mavic_pro_folded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mavic-pro-folded.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mavic_Pro_Platinum_6_copy_e1504203431658" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Mavic-Pro-Platinum-6-copy-e1504203431658.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p4pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\p4pro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p4profront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\p4profront.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p4proObsidian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\p4proObsidian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p4proObsidian2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\p4proObsidian2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p4proObsidianback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\p4proObsidianback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p4proObsidianside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\p4proObsidianside.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p4proside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\p4proside.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p4prov2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\p4prov2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p4prov2rc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\p4prov2rc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pavicprofront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\pavicprofront.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="platinum_bottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\platinum_bottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Remote_P4_Pro_Plus_Front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Remote_P4-Pro-Plus_Front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s2_avatar_bad1e60756272c6527004db80ca75197" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\s2-avatar-bad1e60756272c6527004db80ca75197.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sparkallolors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sparkallolors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sparkback" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sparkback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sparkfrontR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sparkfrontR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sparkline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sparkline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SparkRC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SparkRC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sparkrc2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sparkrc2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sparkredfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sparkredfront.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sparkside" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sparkside.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sparktopB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sparktopB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SparktopG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SparktopG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SparktopW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SparktopW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sparkWfront" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sparkWfront.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sparkWhand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sparkWhand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpsrksideY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SpsrksideY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="design5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\design5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
